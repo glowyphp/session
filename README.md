@@ -40,7 +40,7 @@ $session->setOptions([
     'cookie_samesite' => 'Lax'
 ]);
 
-/// Start session.
+// Start session.
 $session->start();
 ```
 
