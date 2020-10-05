@@ -9,7 +9,10 @@ beforeEach(function (): void {
     $this->session = new Session();
     $this->session->setId('foo');
     $this->session->setName('foo');
-    $this->session->setOptions(['gc_maxlifetime' => 60]);
+    $this->session->setOptions([
+        'cache_limiter' => 'nocache',
+        'cookie_samesite' => 'Lax',
+    ]);
     $this->session->setCookieParams(60, '/', '', false, false);
     $this->session->start();
 });
@@ -24,7 +27,7 @@ test('test instance', function (): void {
 });
 
 test('test getOptions methods', function (): void {
-    $this->assertEquals('60', $this->session->getOptions()['gc_maxlifetime']);
+    $this->assertEquals('nocache', $this->session->getOptions()['cache_limiter']);
 });
 
 test('test getId method', function (): void {
