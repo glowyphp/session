@@ -73,6 +73,75 @@ $session->start();
 
 #### Methods Details
 
+##### <a name="arrays_all"></a> Method: `all()`
+
+```php
+/**
+ * Gets all session values as array.
+ *
+ * @return array The session values
+ */
+public function all(): array
+```
+
+##### Example
+
+```php
+$result = $session->all();
+```
+
+##### <a name="arrays_close"></a> Method: `close()`
+
+```php
+/**
+ * Force the session to be saved and closed.
+ *
+ * Session data is usually stored after your script terminated without the need
+ * to call close(), but as session data is locked to prevent concurrent
+ * writes only one script may operate on a session at any time. When using
+ * framesets together with sessions you will experience the frames loading one
+ * by one due to this locking. You can reduce the time needed to load all the
+ * frames by ending the session as soon as all changes to session variables are
+ * done.
+ */
+public function close(): void
+```
+
+##### Example
+
+```php
+$session->close();
+```
+
+##### <a name="arrays_setOptions"></a> Method: `setOptions()`
+
+```php
+/**
+ * Set session runtime configuration.
+ *
+ * @see http://php.net/manual/en/session.configuration.php
+ *
+ * @param array $config The session options.
+ */
+public function setOptions(array $options): void
+```
+
+##### Example
+
+```php
+$session->setOptions([
+    'use_cookies' => 1,
+    'cookie_secure' => 1,
+    'use_only_cookies' => 1,
+    'cookie_httponly' => 1,
+    'use_strict_mode' => 1,
+    'sid_bits_per_character' => 5,
+    'sid_length' => 48,
+    'cache_limiter' => 'nocache',
+    'cookie_samesite' => 'Lax'
+]);
+```
+
 ### Tests
 
 Run tests
