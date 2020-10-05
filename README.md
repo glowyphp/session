@@ -15,6 +15,8 @@
 
 ### Installation
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d8a4df30541c47828f3ea42d2477f74e)](https://app.codacy.com/gh/atomastic/session?utm_source=github.com&utm_medium=referral&utm_content=atomastic/session&utm_campaign=Badge_Grade)
+
 #### With [Composer](https://getcomposer.org)
 
 ```
