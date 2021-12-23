@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Atomastic\Session;
+namespace Glowy\Session;
 
 use RuntimeException as SessionException;
 
