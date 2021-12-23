@@ -1,13 +1,13 @@
 {
-    "name": "atomastic/session",
+    "name": "glowy/session",
     "description": "Session Component provides basic methods to work with session.",
     "license": "MIT",
     "keywords": [
-        "Session", "session", "php-session", "php", "atomastic"
+        "Session", "session", "php-session", "php", "glowyphp", "glowy"
     ],
     "support": {
-      "source": "https://github.com/atomastic/session",
-      "issues": "https://github.com/atomastic/session/issues"
+      "source": "https://github.com/glowyphp/session",
+      "issues": "https://github.com/glowyphp/session/issues"
     },
     "authors": [
         {
@@ -21,12 +21,13 @@
     },
     "autoload":{
         "psr-4": {
-            "Atomastic\\Session\\": "src/"
+            "Glowy\\Session\\": "src/"
         }
     },
     "require-dev": {
-        "doctrine/coding-standard": "8.2.0",
-        "pestphp/pest": "^1.0.2",
-        "phpstan/phpstan": "^0.12.77"
+        "doctrine/coding-standard": "9.0.0",
+        "pestphp/pest": "^1.21.1",
+        "phpstan/phpstan": "^1.2.0",
+        "symfony/var-dumper": "^5.4.0"
     }
 }

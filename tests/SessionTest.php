@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Atomastic\Session\Session;
+use Glowy\Session\Session;
 
 beforeEach(function (): void {
     $_SESSION      = [];
