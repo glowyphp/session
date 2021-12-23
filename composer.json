@@ -1,9 +1,9 @@
 {
     "name": "glowy/session",
-    "description": "Session Component provides basic methods to work with session.",
+    "description": "Session Package provides basic methods to work with session.",
     "license": "MIT",
     "keywords": [
-        "Session", "session", "php-session", "php", "glowyphp", "glowy"
+        "Session", "session", "php-session", "php", "glowyphp", "glowy", "php-package", "package"
     ],
     "support": {
       "source": "https://github.com/glowyphp/session",

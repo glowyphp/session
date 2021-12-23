@@ -1,6 +1,6 @@
-<h1 align="center">Session Component</h1>
+<h1 align="center">Session Package</h1>
 <p align="center">
-Session Component provide a fluent, object-oriented interface for working with Session.
+Session Package provide a fluent, object-oriented interface for working with Session.
 </p>
 <p align="center">
 <a href="https://github.com/glowyphp/session/releases"><img alt="Version" src="https://img.shields.io/github/release/glowyphp/session.svg?label=version&color=green"></a> <a href="https://github.com/glowyphp/session"><img src="https://img.shields.io/badge/license-MIT-blue.svg?color=green" alt="License"></a> <a href="https://packagist.org/packages/glowy/session"><img src="https://poser.pugx.org/glowy/session/downloads" alt="Total downloads"></a> <img src="https://github.com/glowyphp/session/workflows/Static%20Analysis/badge.svg?branch=dev"> <img src="https://github.com/glowyphp/session/workflows/Tests/badge.svg">
@@ -18,7 +18,7 @@ composer require glowy/session
 ```
 
 ### Resources
-* [Documentation](https://digital.flextype.org/glowyphp/components/session)
+* [Documentation](https://digital.flextype.org/glowyphp/packages/session)
 
 ### Tests
 
