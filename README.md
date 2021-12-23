@@ -14,7 +14,7 @@ Session Component provide a fluent, object-oriented interface for working with S
 #### With [Composer](https://getcomposer.org)
 
 ```
-composer require glowyphp/session
+composer require glowy/session
 ```
 
 ### Resources
