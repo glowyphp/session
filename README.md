@@ -1,4 +1,4 @@
-<h1 align="center">Session Package</h1>
+<h1 align="center">Session</h1>
 <p align="center">
 Session Package provide a fluent, object-oriented interface for working with Session.
 </p>
