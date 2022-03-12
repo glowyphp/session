@@ -18,7 +18,7 @@ composer require glowy/session
 ```
 
 ### Resources
-* [Documentation](https://awilum.github.io/glowyphp/session/)
+* [Documentation](https://awilum.github.io/glowyphp/session)
 
 ### Tests
 
