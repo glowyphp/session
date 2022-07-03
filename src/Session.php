@@ -298,7 +298,7 @@ final class Session
      *
      * @see http://php.net/manual/en/session.configuration.php
      *
-     * @param array $config The session options.
+     * @param array $options The session options.
      */
     public function setOptions(array $options): void
     {
