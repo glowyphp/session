@@ -1,3 +1,7 @@
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/glowyphp/session) (2022-07-03)
+* Moving to PHP 8.1
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/glowyphp/session) (2021-12-23)
 * Released under Glowy PHP Organization
